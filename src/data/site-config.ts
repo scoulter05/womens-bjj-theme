@@ -40,7 +40,8 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     title: 'Soda City Mat Queens Club',
     subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    description: 'This is just a test of how the site could possibly look.',
+
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
