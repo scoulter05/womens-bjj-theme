@@ -10,11 +10,11 @@ seo:
 
 ![Alt text for image](/about.jpeg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Note!:** This is where I'm going to put some sample text. [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 ## Ethan Donovan - Web Developer based in Estonia
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**Greetings!** I'm Lauren Kyle, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
 
 ## Skills and Expertise
 
