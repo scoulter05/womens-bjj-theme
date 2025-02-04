@@ -43,7 +43,7 @@ const siteConfig: SiteConfig = {
     description: 'This is just a test of how the site could possibly look.',
 
     image: {
-        src: '/0D0A5688.JPG',
+        src: '/0D0A0017.jpg',
         alt: 'Preview update I hope'
     },
     headerNavLinks: [
