@@ -4,11 +4,11 @@ seo:
   title: About Me
   description: This is a test.
   image:
-    src: '/about.jpeg'
+    src: '/WomensClassCKM.jpg'
     alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](/about.jpeg)
+![Alt text for image](/WomensClassCKM.jpg)
 
 **Note!:** This is where I'm going to put some sample text. [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
