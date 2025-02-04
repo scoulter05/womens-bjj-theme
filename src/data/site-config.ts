@@ -39,11 +39,11 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Soda City Mat Queens Club',
-    subtitle: 'Minimal Astro.js theme',
+    subtitle: 'Insert the subtitle here',
     description: 'This is just a test of how the site could possibly look.',
 
     image: {
-        src: '/dante-preview.jpg',
+        src: '/WomensClassCKM.jpeg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
@@ -52,26 +52,26 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'About',
+            href: '/about'
         },
         {
             text: 'Blog',
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Contact',
+            href: '/contact'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
+            text: 'Projects',
+            href: '/projects'
         },
         {
-            text: 'Contact',
-            href: '/contact'
+            text: 'Tags',
+            href: '/tags'
         },
         {
             text: 'Terms',
@@ -89,7 +89,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/lauren.kyle.mma/'
         },
         {
             text: 'X/Twitter',
