@@ -18,7 +18,7 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
 
-    <div class="event-invite">
+    <div class="event-invite" style="margin-bottom: 2rem;">
         <!-- Calendly inline widget begin -->
         <div class="calendly-inline-widget" data-url="https://calendly.com/siddwitmusic/test-meeting" style="min-width:320px;height:700px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
@@ -28,7 +28,7 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Projects</h2>
+                <h2 class="mb-4 text-4xl font-serif italic sm:mb-8 sm:text-5xl">Projects</h2>
                 {featuredProjects.map((project) => (
                     <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
@@ -42,7 +42,7 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     {
         featuredPosts?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Writing</h2>
+                <h2 class="mb-4 text-4xl font-serif italic sm:mb-8 sm:text-5xl">Writing</h2>
                 {featuredPosts.map((post) => (
                     <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
