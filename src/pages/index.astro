@@ -26,6 +26,20 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     </div>
 
     {
+        featuredPosts?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-4 text-4xl font-serif italic sm:mb-8 sm:text-5xl">Blog</h2>
+                {featuredPosts.map((post) => (
+                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+                <div class="mt-12 sm:mt-16">
+                    <Button href="/blog">View All Blogs</Button>
+                </div>
+            </div>
+        )
+    }
+
+    {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
                 <h2 class="mb-4 text-4xl font-serif italic sm:mb-8 sm:text-5xl">Projects</h2>
@@ -34,20 +48,6 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
                 ))}
                 <div class="mt-12 sm:mt-16">
                     <Button href="/projects">View All Projects</Button>
-                </div>
-            </div>
-        )
-    }
-
-    {
-        featuredPosts?.length > 0 && (
-            <div class="mb-16 sm:mb-24">
-                <h2 class="mb-4 text-4xl font-serif italic sm:mb-8 sm:text-5xl">Writing</h2>
-                {featuredPosts.map((post) => (
-                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
-                ))}
-                <div class="mt-12 sm:mt-16">
-                    <Button href="/blog">View All Posts</Button>
                 </div>
             </div>
         )

@@ -1,7 +1,7 @@
 ---
 title: The Power of GLOSS
-excerpt: Something something Darkside
-publishDate: 'Jan 11 2024'
+excerpt: If you're new to Brazilian Jiu-Jitsu or looking for a supportive community of women to train with, let me introduce you to something special—GLOSS (Grappling Ladies of Southeastern States)
+publishDate: 'Jan 14 2024'
 isFeatured: true
 tags:
   - Web
